@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an e commerce project for making ">
+    <title>ecommerce project</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar starts here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+
+        <ul class="nav-upper flex-space-around">
+            <li class="nav__list">
+                <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__list">
+                <a href="register.html" class="nav__link">Register</a>
+            </li>
+            <li class="nav__list">
+                <a href="login.html" class="nav__link">login</a>
+            </li>
+            <li class="nav__list">
+                <a href="index.html" class="nav__link">logout</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="contact.html" class="nav__link">contact</a>
+            </li>
+            <li class="nav__list">
+                <a href="profile.html" class="nav__link">
+                    <img class="profile-icon" src="image/profile (1).jpg" alt="profile icon">
+                </a>
+            </li>
+        </ul>
+        <ul class="nav-lower flex-space-around">
+
+            <li class="nav__list">
+                <a href="contact.html" class="nav__brand nav__link">
+                    Tareq Express
+                </a>
+                <li class="nav__list">
+                    <a href="card.html" class=" nav__link">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span> cart 2 products -$124.40
+                    </a>
+                </li>
+        </ul>
+
+    </nav>
+    <!-- navbar ends here -->
+    <main>
+        <section class="contact-secton">
+            <h2 class="section-title text-center">Contact Us</h2>
+
+            <div class=" contact-container flex-center">
+                <form action="" class=" contact-form form card">
+                    <div class="form-control flex-center">
+                        <label for="name" id="name">Name </label>
+                        <input type="text" id="name" required autocomplete="name">
+
+                    </div>
+                    <div class="form-control flex-center">
+                        <label for="email" id="email">Email </label>
+                        <input type="email" id="email" required autocomplete="email">
+
+
+                    </div>
+                    <div class="form-control flex-center ">
+                        <label for="message " id="message ">Message </label>
+                        <textarea name="message" id="message" cols="30" rows="10">
+
+                    </textarea>
+
+                    </div>
+                    <div class="form-control flex-center form-btn-feild ">
+                        <button type="submit" class="btn contact-btn">submit</button>
+                    </div>
+
+                </form>
+                <div class="contact-address flex-space-around">
+                    <address>
+                        <h4>Address:</h4>
+                        <p>124 high street</p>
+                        <p>Tampare,Finland</p>
+                        <br>
+                        <span>Call:</span>
+                        
+                        <a href="tel:+8801814628404">8801814628404</a>
+                        <iframe class="contact__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3746527.4526794753!2d90.3443647!3d23.506657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30adaaed80e18ba7%3A0xf2d28e0c4e1fc6b!2sBangladesh!5e0!3m2!1sen!2sbd!4v1711709915338!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </address>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer start here  -->
+    <footer class=" footer flex-space-around ">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to newsletter :</label>
+            <input type="email" id="subscribe" name="subscribe" class="footer__input" placeholder="Your email address">
+            <button class="btn btn-subscribe">subscribe</button>
+        </div>
+        <div>
+            &copy;Copyright 2023 Tareq Express.All rights reserved.
+        </div>
+
+    </footer>
+    <!-- footer ends here  -->
+    <script src="index.js"></script>
+</body>
+
+</html>

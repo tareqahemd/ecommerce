@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an e commerce project for making ">
+    <title>ecommerce project</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar starts here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+
+        <ul class="nav-upper flex-space-around">
+            <li class="nav__list">
+                <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__list">
+                <a href="register.html" class="nav__link">Register</a>
+            </li>
+            <li class="nav__list">
+                <a href="login.html" class="nav__link">login</a>
+            </li>
+            <li class="nav__list">
+                <a href="index.html" class="nav__link">logout</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="contact.html" class="nav__link">contact</a>
+            </li>
+            <li class="nav__list">
+                <a href="profile.html" class="nav__link">
+                    <img class="profile-icon" src="image/profile (1).jpg" alt="profile icon">
+                </a>
+            </li>
+        </ul>
+        <ul class="nav-lower flex-space-around">
+
+            <li class="nav__list">
+                <a href="contact.html" class="nav__brand nav__link">
+                    Tareq Express
+                </a>
+                <li class="nav__list">
+                    <a href="card.html" class=" nav__link">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span> cart 2 products -$124.40
+                    </a>
+                </li>
+        </ul>
+
+    </nav>
+    <!-- navbar ends here -->
+    <main>
+
+        <div class="profile__heading">
+            <h1> User Profile</h1>
+        </div>
+        <article class="profile__card card">
+
+            <div class="badge">
+                <span>2 in stock</span>
+                <hr class="hr-desigon">
+                <span>9 sold</span>
+
+
+            </div>
+            <img class="profile__img" src="image/profile (1).jpg" alt="headphones">
+            <div class="profile__body">
+                <h3 class="profile__name">
+                    Tareq Ahmed
+                </h3>
+                <p>
+
+                </p>
+                <p class="profile__description">
+                    tareqahmed347396@gmail.com
+                </p>
+                <p class="profile__preview">
+                    I love to shop different type of gadgets
+                </p>
+                <i class="fas fa-trash profile__btn fa-1x"></i>
+                <i class="fas fa-edit  profile__btn  fa-1x"></i>
+
+
+            </div>
+        </article>
+
+    </main>
+    <!-- footer start here  -->
+    <footer class=" footer flex-space-around ">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to newsletter :</label>
+            <input type="email" id="subscribe" name="subscribe" class="footer__input" placeholder="Your email address">
+            <button class="btn btn-subscribe">subscribe</button>
+        </div>
+        <div>
+            &copy;Copyright 2023 Tareq Express.All rights reserved.
+        </div>
+
+    </footer>
+    <!-- footer ends here  -->
+    <script src="index.js"></script>
+</body>
+
+</html>
